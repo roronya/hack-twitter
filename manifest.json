@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "hack-twitter",
+  "version": "1.0.0",
+  "description": "hack twitter",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/"
+      ],
+      "js": ["index.js"]
+    }
+  ]
+}
